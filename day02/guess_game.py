@@ -7,13 +7,11 @@ count = 0
 while guess != number:
     if guess > number:
         print("your guess is too big, try again")
-        guess = int(input("guess again: "))
-        count = count + 1
+        count += 1
     elif guess < number:
         print("your guess is too small, try again")
-        guess = int(input("guess again: "))
-        count = count + 1
-
-if guess == number:
-    print("congratulation, your guess is correct!")
-    print(f"It took you only {count} guesse to get there!")
+        count += 1
+    guess = int(input("guess again: "))
+    
+print("congratulation, your guess is correct!")
+print(f"It took you only {count} guesse to get there!")
