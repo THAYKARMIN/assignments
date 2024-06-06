@@ -1,0 +1,4 @@
+# What My Program Does?
+
+My script [ncbi_download.py](/day07/ncbi_download.py) takes a taxon name (term) and the maximum number of search results to download (number) as inputs. It then searches for the term in the Taxonomy database of [NCBI](https://www.ncbi.nlm.nih.gov), downloads results up to the specified number, and saves each file. Additionally, it prints the date, term, maximum number of downloads specified, and total number of results, and saves it as a CSV file. All the files saved in [output directory](/day07/output_elephant/). Additionally you can find in this folder requirements file: [requirements.txt](/day07/requirements.txt)  
+ 
