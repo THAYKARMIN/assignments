@@ -1,0 +1,4 @@
+# What My Program Does?
+
+My script [ncbi_download.py](/day08/ncbi_download.py) opens a GUI window that asks for a search term, the maximum number of search results to download (number), the database to search, and the file format as inputs. It then searches for the term in the chosen database of [NCBI](https://www.ncbi.nlm.nih.gov), downloads results up to the specified number, and saves each file. Additionally, it saves a CSV file with the date, term, maximum number of downloads specified, and the total number of results. Additionally, you can find in this folder a requirements file: [requirements.txt](/day08/requirements.txt)  
+ 
